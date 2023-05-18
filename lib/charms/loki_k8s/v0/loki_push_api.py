@@ -43,9 +43,6 @@ and three optional arguments.
   If provided, this relation name must match a provided relation in metadata.yaml with the
   `loki_push_api` interface.
 
-  Typically `LokiPushApiConsumer` use "logging" as a relation_name and `LogProxyConsumer` use
-  "log_proxy".
-
   The default value of this arguments is "logging".
 
   An example of this in a `metadata.yaml` file should have the following section:
